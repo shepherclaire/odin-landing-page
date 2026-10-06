@@ -2,6 +2,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-text{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 400px;
+    text-align: center;
+    gap: 15px;
+    color: #1F2937;
+    font-size: 15px;
+}
+
+.second-section-box{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 10px;
+}
+
+.blank-box{
+    border: 3px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
 .footer {
     display: flex;
     background-color:  #1F2937;
@@ -43,9 +74,10 @@ body {
     display: flex;
     flex-direction: column;
     padding: 50px 150px;
+    margin-top: 30px;
 }
 
-.quote{
+.quote {
     color: #1F2937;
     font-style: italic;
     font-size: 36px;
