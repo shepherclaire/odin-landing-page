@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .footer {
     display: flex;
     background-color:  #1F2937;
@@ -5,4 +9,31 @@
     align-items: center;
     color: #F9FAF8;
     height: 60px;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 20px;
+    gap: 250px;
+    color: white;
+    background-color: #3882F6;
+    margin: 30px 300px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.small-text{
+    font-size: 10px;
+}
+
+.small-button {
+    width: 75px;
+    height: 20px;
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
 }
