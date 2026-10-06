@@ -9,6 +9,24 @@ body {
     align-items: center;
 }
 
+.top-section{
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    color: white;
+    padding-left: 50px;
+}
+
+.list {    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 750px;
+}
+
 .second-section-text{
     display: flex;
     flex-direction: row;
