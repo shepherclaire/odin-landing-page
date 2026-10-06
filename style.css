@@ -37,3 +37,21 @@ body {
     border-color: white;
     border-radius: 5px;
 }
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+
+.quote{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.sign{
+    color: #1F2937; 
+    padding-left: 950px;
+}
