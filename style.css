@@ -11,12 +11,42 @@ body {
 
 .top-section{
     background-color: #1F2937;
+    color: white;
+    padding: 50px 150px;
 }
 
 .header {
     display: flex;
+}
+
+.header-body{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header-body-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    width: 75px;
+    height: 20px;
     color: white;
-    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 450px;
+    height: 200px;
 }
 
 .list {    
@@ -24,7 +54,7 @@ body {
     flex-direction: row;
     gap: 20px;
     list-style-type: none;
-    padding-left: 750px;
+    padding-left: 575px;
 }
 
 .second-section-text{
